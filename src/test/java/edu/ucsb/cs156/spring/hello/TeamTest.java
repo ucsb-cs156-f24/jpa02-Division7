@@ -28,7 +28,7 @@ public class TeamTest {
         team1.addMember("test");
         team2.addMember("test");
         assertEquals(team1, team2);
-        
+        assertEquals(team1, team1);
     }
 
     @Test
