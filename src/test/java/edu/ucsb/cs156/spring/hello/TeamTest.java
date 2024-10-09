@@ -38,6 +38,9 @@ public class TeamTest {
         team1.addMember("test1");
         team2.addMember("test2");
         assertNotEquals(team1, team2);
+        Team team3 = new Team("test2");
+        team3.addMember("test3");
+        assertNotEquals(team1, team3);
     }
 
     @Test
